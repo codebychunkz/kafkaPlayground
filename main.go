@@ -6,15 +6,6 @@ import (
 	"time"
 )
 
-//https://github.com/wurstmeister/kafka-docker
-//https://medium.com/@Oskarr3/implementing-cqrs-using-kafka-and-sarama-library-in-golang-da7efa3b77fe
-//https://gist.github.com/JnBrymn/6fc38872b4d312886908#file-sarama_example-go-L22
-//https://github.com/Shopify/sarama/wiki
-//https://github.com/Shopify/sarama/tree/master/examples
-
-//docker-compose up -d
-//docker-compose scale kafka=2
-
 func main() {
 	log.Println("START")
 
